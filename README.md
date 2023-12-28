@@ -2,6 +2,6 @@
 
 
 ## Plays
-- [Pingsrv](#ping my servers)
-- [Updatesrv](#update my servers)
+- **Pingsrv**: (ping my servers)
+- **Updatesrv** (update my servers)
 
