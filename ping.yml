@@ -1,8 +1,0 @@
----
-- name: Ping servers
-  hosts: srvthc
-  become: false
-
-  tasks:
-    - name: Ping the servers
-      ping:
