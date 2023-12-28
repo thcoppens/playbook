@@ -1,7 +1,0 @@
----
-- name: Uitvoeren van back-up op srvpve
-  hosts: srvpve
-  become: true
-  tasks:
-    - name: Voer back-upcommando uit
-      command: "sudo proxmox-backup-client backup root.pxar:/ --repository 192.168.25.8:backupdisk"
