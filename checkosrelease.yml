@@ -1,0 +1,9 @@
+---
+- name: Check OS Release on srvthc servers
+  hosts: srvthc
+  gather_facts: true
+
+  tasks:
+    - name: Display OS Release
+      debug:
+        var: ansible_distribution + " " + ansible_distribution_version
